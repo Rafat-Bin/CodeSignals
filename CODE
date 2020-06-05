@@ -1,9 +1,9 @@
-Intro: 4 
+/*Intro: 4 
 Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
 Example
 For inputArray = [3, 6, -2, -5, 7, 3], the output should be
 adjacentElementsProduct(inputArray) = 21.
-7 and 3 produce the largest product.
+7 and 3 produce the largest product. */
 
 int adjacentElementsProduct(int[] inputArray) {
     int product = inputArray[0] * inputArray[1];
@@ -17,7 +17,7 @@ int adjacentElementsProduct(int[] inputArray) {
 }
 
 
-
+/*
 Core: Into the gates 2
 Given an integer n, return the largest number that contains exactly n digits.
 Example
@@ -29,8 +29,9 @@ Input/Output
 Guaranteed constraints:
 1 ≤ n ≤ 9.
 •	[output] integer
-o	The largest integer of length n.
+o	The largest integer of length n. */
 Solution:
+
 int largestNumber(int n) {
      
 String s = "9";
